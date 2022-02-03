@@ -1,17 +1,12 @@
-package com.example.controllers;
+package com.example.practical1.controllers;
 
-import com.example.models.PlantInventoryEntry;
-import com.example.models.PlantInventoryEntryRepository;
+import com.example.practical1.models.PlantInventoryEntry;
+import com.example.practical1.models.PlantInventoryEntryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import java.math.BigDecimal;
 
 @Controller
 public class PlantInventoryEntryController {
